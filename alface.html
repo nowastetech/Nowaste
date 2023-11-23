@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/alface.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nowaste</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo"><img src="images/imagem_2023-10-31_234450353-removebg-preview.png" alt=""></a>
+            <ul class="nav-menu">
+              <div class="search">
+                <li class="nav-item"><img src="images/lupa.png" alt=""></li>
+                <li class="nav-item"><input type="text"></li>
+              </div>
+                <li class="nav-item"><a class="mandar-login1" href="login.html"><button>Login</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="home" id="home">
+            <div class="home-img">
+                <img class="principal" src="images/alface1.jpg" alt="logo nowaste">
+            </div>
+            <div class="home-text">
+                <h1 class="text-h1">Alface</h1>
+                <p class="text-p">Alfaces frescos diretamente da Horta do  agricultor para a sua mesa</p>
+                <div class="product">
+                  <button class="decrease">-</button>
+                  <input type="text" class="quantity" value="0">
+                  <button class="increase">+</button>
+                  <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                      const decreaseBtn = document.querySelector('.decrease');
+                      const increaseBtn = document.querySelector('.increase');
+                      const quantityInput = document.querySelector('.quantity');
+                  
+                      decreaseBtn.addEventListener('click', function() {
+                        let currentValue = parseInt(quantityInput.value);
+                        if (currentValue > 0) {
+                          quantityInput.value = currentValue - 1;
+                        }
+                      });
+                  
+                      increaseBtn.addEventListener('click', function() {
+                        let currentValue = parseInt(quantityInput.value);
+                        quantityInput.value = currentValue + 1;
+                      });
+                    });
+                  </script>
+                </div>
+                <a href="login.html" class="home-btn">Adicionar ao carrinho</a>
+            </div>
+        </section>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap");
+
+header {
+  color: #fdfeff;
+  font-family: Poppins;
+
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgLogo {
+  width: 120px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 98vw;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(#000000, #04075b, #0b0ca6);
+  color: white;
+}
+
+section {
+  color: #fff;
+
+  font-family: Montserrat;
+
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 35%;
+
+  background: linear-gradient(
+    107deg,
+    rgba(37, 62, 179, 1) 0%,
+    rgb(20, 39, 122) 50%
+  );
+
+  border: 1px solid #000000;
+
+  border-color: #000000;
+  border-radius: 3%;
+}
+
+.alb {
+  display: flex;
+  justify-content: first baseline;
+}
+
+.carrinho {
+  background-color: #f4f4f4;
+  padding: 30px;
+
+  text-align: center;
+}
+
+.entrega {
+  padding: 30px;
+  width: 270px;
+  height: 350px;
+}
+
+.pagamento {
+  padding: 30px;
+  width: 270px;
+  height: 350px;
+}
+
+/* Estilos para as opções de entrega e formas de pagamento */
+.entrega,
+.pagamento {
+  background-color: #f4f4f4;
+}
+
+.entrega h2,
+.pagamento h2 {
+  text-align: center;
+}
+
+/* Estilos para os botões de finalização de compra */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+button.finalizar-compra {
+  padding: 10px 200px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #d1d5fc;
+  width: 100%;
+  border-radius: 1000px;
+}
+
+input {
+  border-radius: 1000px;
+}

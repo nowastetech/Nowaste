@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --azul: #0b0ca6;
+  --azul-claro: #5271ff;
+  --azul-second: #3c5ffd;
+  --white: #ffff;
+  --dark: #;
+}
+
+body {
+  color: var(--);
+  background: var(--white);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  box-shadow: 0 0.1rem 0.5rem #ccc;
+  width: 100%;
+  background: blur;
+  backdrop-filter: blur(40px);
+  transition: all 0.5s;
+  position: fixed;
+}
+
+.navigation .logo img {
+  width: 300px;
+  height: 120px;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.navigation ul li a {
+  color: var(--dark);
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
+  color: var(--azul-claro);
+}
+
+.navigation ul li button {
+  color: var(--white);
+  background: var(--azul);
+  border-radius: 10px;
+  padding: 8px 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navigation ul li button:hover {
+  background: var(--azul-claro);
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  background: linear-gradient(white, #f0f0f0);
+}
+
+.home-text {
+  max-width: 48rem;
+}
+
+.home-text .text-h1 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  line-height: 4rem;
+  color: var(--azul);
+}
+
+.home-text .text-p {
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.home-img .principal {
+  width: 800px;
+  height: 600px;
+}
+
+.home-btn {
+  cursor: pointer;
+  padding: 15px 45px;
+  background: var(--azul);
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.home-btn:hover {
+  background: var(--azul-claro);
+  color: var(--dark);
+}
+
+#sobre {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  background: linear-gradient(#f0f0f0, #5271ff, #3c5ffd);
+}
+
+.sobre-text {
+  max-width: 50rem;
+}
+
+.sobre-text .text-h1 {
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+  line-height: 4rem;
+  color: var(--dark);
+}
+
+.sobre-text .text-h3 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.sobre-img .img-sobre {
+  margin-top: 100px;
+  width: 850px;
+  height: 650px;
+}
+
+#services {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px, 10%;
+  background: linear-gradient(white, #f0f0f0);
+}
+
+.services-text {
+  max-width: 70rem;
+  padding-left: 300px;
+}
+
+.services-text .text-h1 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+  line-height: 4rem;
+  color: var(--dark);
+}
+
+.services-text .text-h3 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.services-img .img-services {
+  margin-right: 250px;
+  width: 720px;
+  height: 780px;
+}
+
+#impactos {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  background: linear-gradient(#f0f0f0, #3c5ffd);
+}
+
+.impactos-text {
+  max-width: 55rem;
+}
+
+.impactos-text .text-h1 {
+  font-size: 56px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4rem;
+  line-height: 3rem;
+  color: var(--azul);
+}
+
+.impactos-text .text-p {
+  font-size: 27px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.impactos-img .img-impactos {
+  margin: 200px;
+  width: 714px;
+  height: 684px;
+}
+
+#contato {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  background: #3c5ffd;
+}
+
+.insta {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.logo-insta {
+  width: 35px;
+  height: 32px;
+}
+
+.nome-insta {
+  font-size: 28px;
+  color: var(--dark);
+}
+
+.nome-insta:hover {
+  color: var(--white);
+}
+
+.copy {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .home-img .principal {
+    margin-top: 120px;
+    width: 500px;
+    height: 300px;
+  }
+  .navigation {
+    padding: 8px 20px;
+  }
+  .home {
+    width: 100%;
+    flex-direction: column;
+  }
+}

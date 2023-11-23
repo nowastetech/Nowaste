@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+
+
+input {
+
+    border-radius: 1000px;
+    
+    }
+
+body{
+    display: flex;
+
+    height: 645px;
+    background: #010101;
+    background: linear-gradient(180deg, #010101, #1D08B6 , #0b0ca6);
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      
+    }
+    input{
+        color: #010101 !important;
+    }
+    
+    .quadro{
+         display: flex;
+         color: #010101;
+         border: 2px solid black;
+         border-color: #030252;
+         width: 400px;
+         height: 500px;
+         justify-content: center;
+         align-items: center;
+        border-radius: 10px;
+        background: rgb(37,62,179);
+background: linear-gradient(107deg, rgba(37,62,179,1) 0%, rgba(9,23,88,1) 50%);
+
+
+    }
+    
+    h2 {
+         color: white;
+         align-items: center;
+         justify-content: center;
+         color: #FFF;
+
+        font-family: Montserrat;
+
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 10px 70px;
+    }
+
+    h3{
+        font-family: Montserrat;
+
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin: 10px 90px;
+        color: white;
+    }
+
+    #cliente-form *{
+        margin: 10px 100px;
+        color: #FFF;
+
+        font-family: Montserrat;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    #a-cadastrar{
+
+        background-color: #d9dcf1;
+       border: solid #010101;
+        border-radius: 1000px;
+        color: #010101;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+button{
+    font-family:'Montserrat' , sans-serif;
+    font-weight: 1000;
+    margin-left: 120px;
+    color: #030252;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
