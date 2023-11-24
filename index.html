@@ -11,7 +11,10 @@
     <header>
         <nav class="navigation">
             <a href="#" class="logo"><img src="images/imagem_2023-10-31_234450353-removebg-preview.png" alt=""></a>
-            <ul class="nav-menu">
+            <button class="menu-icon" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
                 <li class="nav-item"><a href="#home">Inicio</a></li>
                 <li class="nav-item"><a href="#sobre">Sobre</a></li>
                 <li class="nav-item"><a href="#services">Serviços</a></li>
@@ -33,7 +36,7 @@
             </div>
         </section>
         <section class="sobre" id="sobre">
-            <div class="sobre-img">
+            <div class="sobre-img-area">
                 <img class="img-sobre" src="images/alimentos-removebg-preview.png" alt="">
             </div>
             <div class="sobre-text">
@@ -68,6 +71,6 @@
         </div>
         </section>
     </main>
-
+    <script src="js/toggle.js"></script>
 </body>
 </html>
