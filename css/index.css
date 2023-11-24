@@ -262,6 +262,7 @@ body {
 }
 
 .menu-icon {
+  display: none;
   display: block;
   background: none;
   border: none;
@@ -270,7 +271,7 @@ body {
   color: var(--dark);
   position: absolute;
   top: 70px; 
-  right: 20px; 
+  right: -50px; 
   z-index: 2; 
 }
 
@@ -408,7 +409,7 @@ body {
   .navigation {
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 20px; /* Ajuste de padding para o menu no modo responsivo */
+    padding: 8px 20px; 
   }
 
   .navigation .logo img {
@@ -437,6 +438,10 @@ body {
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+  }
+
+  .menu-icon {
+    right: 20px;
   }
 
   .menu-icon i {
@@ -492,7 +497,7 @@ body {
   .navigation {
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 20px; /* Ajuste de padding para o menu no modo responsivo */
+    padding: 8px 20px;
   }
 
   .navigation .logo img {
