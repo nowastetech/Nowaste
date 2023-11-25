@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+        <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="js/bot.js" defer></script>
 </head>
 <body>
+
+    
+    
     <div class="container">
         <div class="content first-content">
             <div class="first-column">
@@ -58,7 +67,11 @@
                     </label>
                     
                     
-                    <button onclick="logar()" class="btn btn-second">entrar</button>        
+                    <button onclick="logar()" class="btn btn-second">
+                        <a href="compra1.html">
+                            entrar
+                        </a>
+                    </button>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
@@ -105,7 +118,11 @@
                     </label>
                 
                     <a class="password" href="#">Esqueceu a senha?</a>
-                    <button onclick="logar()" class="btn btn-second">Entrar</button>
+                    <button onclick="logar()" class="btn btn-second">
+                        <a href="compra1.html">
+                        Entrar
+                        </a>
+                    </button>
                 </form>
             </div><!-- second column -->
         </div><!-- second-content -->
